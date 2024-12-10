@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairly Reliable Car Sales</title> <!-- Updated title -->
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <header>
+                <nav>
+                    <div style="text-align: center; padding: 20px 0; background-color: #333; display: flex; align-items: center; justify-content: center;">
+                        <img src="Images/mainlogo.png" alt="Hero Image Left" style="width: 221px; height: auto; margin-right: 20px;">
+                    </div>
+
+                    <!-- Navigation links centered below the title -->
+                    <div style="text-align: center; padding: 20px 0; background-color: #333; display: flex; align-items: center; justify-content: center;">
+                        <a href="Home.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">Home</a>
+                        <a href="About.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">About</a>
+                        <a href="CarSales.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">Car Sales</a>
+                        <a href="Contact.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">Contact</a>
+                        <a href="News.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">News & Events</a>
+                        <a href="FAQs.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">FAQs</a>
+                        <a href="Services.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">Services</a>
+                        <a href="Testimonials.aspx" style="text-decoration: none; padding: 0 15px; color: white; font-weight: bold;">Testimonials</a>
+                    </div>
+                </nav>
+            </header>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
